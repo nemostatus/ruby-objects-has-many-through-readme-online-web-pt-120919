@@ -3,5 +3,8 @@ class Waiter
     @name = name 
     @years = yrs_of_xp
   end 
+  def self.all 
+    @@all 
+  end 
 
 end
